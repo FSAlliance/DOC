@@ -1,0 +1,125 @@
+1、主页中种类（男装女装获取接口）
+http://39.107.106.248:3389/FSAlliance/rest/Goods/favoriteGroup?pageNo=1&pageSize=10
+
+
+------------------------------------------------------------------------------------------------
+
+2、种类中的商品获取接口（比如点击男装获取到的商品数据）
+http://39.107.106.248:3389/FSAlliance/rest/Goods/favoriteItem?favoritesId=15901348&platForm=2&adzoneId=210792050&uuid=1231231231&pageSize=10&pageNo=0
+favoritesId : 就是男装、女装的id long
+platForm： 写死2 long
+adzoneId 写死210792050 long
+uuid ：随意 String 
+pageSize 暂时写死 10 long
+pageNo 暂时写死 0 long
+
+
+------------------------------------------------------------------------------------------------
+
+3、生成淘口令的接口（根据商品的优惠卷链接生成）
+http://39.107.106.248:3389/FSAlliance/rest/Goods/code?userId=128556731&text=%E5%AE%BD%E6%9D%BE%E8%A1%AC%E8%A1%AB%E8%A3%99%E5%A5%B3%E9%95%BF%E8%A2%962018%E6%98%A5%E8%A3%85%E6%96%B0%E6%AC%BE%E7%AE%80%E7%BA%A6%E7%99%BE%E6%90%AD%E7%99%BD%E8%A1%AC%E8%A1%A3%E4%B8%AD%E9%95%BF%E6%AC%BEchic%E4%B8%8A%E8%A1%A3bf%E9%A3%8E&url=https%3A%2F%2Fuland.taobao.com%2Fcoupon%2Fedetail%3Fe%3DhZF%252FHxlw9rgGQASttHIRqaOypSpKeL5hI5arNFrJoEK0a6ouKNVKa0SRmb58SticiaP4Spy1zFzvpYiRJsu%252BSb9fwBwwUiqlY1VSfP7Tu%252BmbIqGPJckV0fSs4zOlZ4se&logo=https%3A%2F%2Fimg.alicdn.com%2Ftfscom%2Fi2%2F2526901592%2FTB2HVPFexk98KJjSZFoXXXS6pXa_%21%212526901592.jpg&ext=
+userId 用户ID 暂时不填
+text 商品的标题，填写商品的title字段（会出现淘口令中的标题乱码）
+url 商品的优惠卷链接
+logo 商品的图片
+ext 暂时不填
+
+------------------------------------------------------------------------------------------------
+
+4、主页列表显示
+http://39.107.106.248:3389/FSAlliance/rest/Goods/Custom?adzoneid=210792050&pageNo=1&pageSize=10&platform=2
+
+参数：
+adzoneId 写死210792050 long
+platForm： 写死2 long
+pageSize 暂时写死 10 long
+pageNo 暂时写死 0 long
+
+------------------------------------------------------------------------------------------------
+5、登录接口
+http://39.107.106.248:3389/FSAlliance/rest/user/checkSign?phoneNum=123&passWord=1111
+
+参数：
+phoneNum手机号
+passWord 密码
+
+----------------------------------
+正确返回数据
+{
+content: {
+DBalanceNum: 0,
+DCashed: 0,
+DCashing: 0,
+IScoreNum: 0,
+SAlipayNum: "",
+SInviteNum: "",
+SName: "123",
+SParentId: "",
+SPassword: "1111",
+SPath: "",
+SPhoneNum: "123",
+SUserId: "213213",
+SUserPic: "",
+dtCreateTime: null,
+dtLoginTime: null
+},
+ret: 0
+}
+----------------------------------
+错误返回数据
+{
+content: null,
+ret: -5  代表此用户不存在
+}
+
+{
+content: null,
+ret: -6 代表密码不正确
+}
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+6、注册用户
+http://39.107.106.248:3389/FSAlliance/rest/user/register?phoneNum=1232523423&passWord=1111&shareCode=12121
+
+参数：
+phoneNum手机号
+passWord 密码
+shareCode 分享码
+
+----------------------------------
+正确返回数据
+{
+content: {
+DBalanceNum: 0,
+DCashed: 0,
+DCashing: 0,
+IScoreNum: 0,
+SAlipayNum: "",
+SInviteNum: "12121",
+SName: "12325234233",
+SParentId: "",
+SPassword: "1111",
+SPath: "",
+SPhoneNum: "12325234233",
+SUserId: "8b3e28c4-fb6f-4263-8fb8-d8f30b87e7cd",
+SUserPic: "",
+dtCreateTime: null,
+dtLoginTime: null
+},
+ret: 0
+}
+
+----------------------------------
+错误返回数据
+{
+content: null,
+ret: -15
+}
+
+户id已经存在
+
+
