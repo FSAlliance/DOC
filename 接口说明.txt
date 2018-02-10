@@ -47,21 +47,21 @@ passWord 密码
 正确返回数据
 {
 content: {
-DBalanceNum: 0,
-DCashed: 0,
-DCashing: 0,
-IScoreNum: 0,
-SAlipayNum: "",
-SInviteNum: "",
-SName: "123",
-SParentId: "",
-SPassword: "1111",
-SPath: "",
-SPhoneNum: "123",
-SUserId: "213213",
-SUserPic: "",
-dtCreateTime: null,
-dtLoginTime: null
+DBalanceNum: 0, //余额
+DCashed: 0,//已提现
+DCashing: 0,//提现中
+IScoreNum: 0,//总积分
+SAlipayNum: "",//支付宝账号
+SInviteNum: "",//推荐码
+SName: "123",//昵称
+SParentId: "",//父类ID
+SPassword: "1111",//密码
+SPath: "",//暂时没用
+SPhoneNum: "123",//手机号
+SUserId: "213213",//用户ID
+SUserPic: "",//头像
+dtCreateTime: null,//创建时间
+dtLoginTime: null//最近一次登录时间
 },
 ret: 0
 }
