@@ -1,50 +1,50 @@
-1¡¢Ö÷Ò³ÖĞÖÖÀà£¨ÄĞ×°Å®×°»ñÈ¡½Ó¿Ú£©
+1ã€ä¸»é¡µä¸­ç§ç±»ï¼ˆç”·è£…å¥³è£…è·å–æ¥å£ï¼‰
 http://39.107.106.248:3389/FSAlliance/rest/Goods/favoriteGroup?pageNo=1&pageSize=10
 
 
 ------------------------------------------------------------------------------------------------
 
-2¡¢ÖÖÀàÖĞµÄÉÌÆ·»ñÈ¡½Ó¿Ú£¨±ÈÈçµã»÷ÄĞ×°»ñÈ¡µ½µÄÉÌÆ·Êı¾İ£©
+2ã€ç§ç±»ä¸­çš„å•†å“è·å–æ¥å£ï¼ˆæ¯”å¦‚ç‚¹å‡»ç”·è£…è·å–åˆ°çš„å•†å“æ•°æ®ï¼‰
 http://39.107.106.248:3389/FSAlliance/rest/Goods/favoriteItem?favoritesId=15901348&platForm=2&adzoneId=210792050&uuid=1231231231&pageSize=10&pageNo=0
-favoritesId : ¾ÍÊÇÄĞ×°¡¢Å®×°µÄid long
-platForm£º Ğ´ËÀ2 long
-adzoneId Ğ´ËÀ210792050 long
-uuid £ºËæÒâ String 
-pageSize ÔİÊ±Ğ´ËÀ 10 long
-pageNo ÔİÊ±Ğ´ËÀ 0 long
+favoritesId : å°±æ˜¯ç”·è£…ã€å¥³è£…çš„id long
+platFormï¼š å†™æ­»2 long
+adzoneId å†™æ­»210792050 long
+uuid ï¼šéšæ„ String 
+pageSize æš‚æ—¶å†™æ­» 10 long
+pageNo æš‚æ—¶å†™æ­» 0 long
 
 
 ------------------------------------------------------------------------------------------------
 
-3¡¢Éú³ÉÌÔ¿ÚÁîµÄ½Ó¿Ú£¨¸ù¾İÉÌÆ·µÄÓÅ»İ¾íÁ´½ÓÉú³É£©
+3ã€ç”Ÿæˆæ·˜å£ä»¤çš„æ¥å£ï¼ˆæ ¹æ®å•†å“çš„ä¼˜æƒ å·é“¾æ¥ç”Ÿæˆï¼‰
 http://39.107.106.248:3389/FSAlliance/rest/Goods/code?userId=128556731&text=%E5%AE%BD%E6%9D%BE%E8%A1%AC%E8%A1%AB%E8%A3%99%E5%A5%B3%E9%95%BF%E8%A2%962018%E6%98%A5%E8%A3%85%E6%96%B0%E6%AC%BE%E7%AE%80%E7%BA%A6%E7%99%BE%E6%90%AD%E7%99%BD%E8%A1%AC%E8%A1%A3%E4%B8%AD%E9%95%BF%E6%AC%BEchic%E4%B8%8A%E8%A1%A3bf%E9%A3%8E&url=https%3A%2F%2Fuland.taobao.com%2Fcoupon%2Fedetail%3Fe%3DhZF%252FHxlw9rgGQASttHIRqaOypSpKeL5hI5arNFrJoEK0a6ouKNVKa0SRmb58SticiaP4Spy1zFzvpYiRJsu%252BSb9fwBwwUiqlY1VSfP7Tu%252BmbIqGPJckV0fSs4zOlZ4se&logo=https%3A%2F%2Fimg.alicdn.com%2Ftfscom%2Fi2%2F2526901592%2FTB2HVPFexk98KJjSZFoXXXS6pXa_%21%212526901592.jpg&ext=
-userId ÓÃ»§ID ÔİÊ±²»Ìî
-text ÉÌÆ·µÄ±êÌâ£¬ÌîĞ´ÉÌÆ·µÄtitle×Ö¶Î£¨»á³öÏÖÌÔ¿ÚÁîÖĞµÄ±êÌâÂÒÂë£©
-url ÉÌÆ·µÄÓÅ»İ¾íÁ´½Ó
-logo ÉÌÆ·µÄÍ¼Æ¬
-ext ÔİÊ±²»Ìî
+userId ç”¨æˆ·ID æš‚æ—¶ä¸å¡«
+text å•†å“çš„æ ‡é¢˜ï¼Œå¡«å†™å•†å“çš„titleå­—æ®µï¼ˆä¼šå‡ºç°æ·˜å£ä»¤ä¸­çš„æ ‡é¢˜ä¹±ç ï¼‰
+url å•†å“çš„ä¼˜æƒ å·é“¾æ¥
+logo å•†å“çš„å›¾ç‰‡
+ext æš‚æ—¶ä¸å¡«
 
 ------------------------------------------------------------------------------------------------
 
-4¡¢Ö÷Ò³ÁĞ±íÏÔÊ¾
+4ã€ä¸»é¡µåˆ—è¡¨æ˜¾ç¤º
 http://39.107.106.248:3389/FSAlliance/rest/Goods/Custom?adzoneid=210792050&pageNo=1&pageSize=10&platform=2
 
-²ÎÊı£º
-adzoneId Ğ´ËÀ210792050 long
-platForm£º Ğ´ËÀ2 long
-pageSize ÔİÊ±Ğ´ËÀ 10 long
-pageNo ÔİÊ±Ğ´ËÀ 0 long
+å‚æ•°ï¼š
+adzoneId å†™æ­»210792050 long
+platFormï¼š å†™æ­»2 long
+pageSize æš‚æ—¶å†™æ­» 10 long
+pageNo æš‚æ—¶å†™æ­» 0 long
 
 ------------------------------------------------------------------------------------------------
-5¡¢µÇÂ¼½Ó¿Ú
+5ã€ç™»å½•æ¥å£
 http://39.107.106.248:3389/FSAlliance/rest/user/checkSign?phoneNum=123&passWord=1111
 
-²ÎÊı£º
-phoneNumÊÖ»úºÅ
-passWord ÃÜÂë
+å‚æ•°ï¼š
+phoneNumæ‰‹æœºå·
+passWord å¯†ç 
 
 ----------------------------------
-ÕıÈ··µ»ØÊı¾İ
+æ­£ç¡®è¿”å›æ•°æ®
 {
 content: {
 DBalanceNum: 0,
@@ -66,15 +66,15 @@ dtLoginTime: null
 ret: 0
 }
 ----------------------------------
-´íÎó·µ»ØÊı¾İ
+é”™è¯¯è¿”å›æ•°æ®
 {
 content: null,
-ret: -5  ´ú±í´ËÓÃ»§²»´æÔÚ
+ret: -5  ä»£è¡¨æ­¤ç”¨æˆ·ä¸å­˜åœ¨
 }
 
 {
 content: null,
-ret: -6 ´ú±íÃÜÂë²»ÕıÈ·
+ret: -6 ä»£è¡¨å¯†ç ä¸æ­£ç¡®
 }
 
 
@@ -82,16 +82,16 @@ ret: -6 ´ú±íÃÜÂë²»ÕıÈ·
 ------------------------------------------------------------------------------------------------
 
 
-6¡¢×¢²áÓÃ»§
+6ã€æ³¨å†Œç”¨æˆ·
 http://39.107.106.248:3389/FSAlliance/rest/user/register?phoneNum=1232523423&passWord=1111&shareCode=12121
 
-²ÎÊı£º
-phoneNumÊÖ»úºÅ
-passWord ÃÜÂë
-shareCode ·ÖÏíÂë
+å‚æ•°ï¼š
+phoneNumæ‰‹æœºå·
+passWord å¯†ç 
+shareCode åˆ†äº«ç 
 
 ----------------------------------
-ÕıÈ··µ»ØÊı¾İ
+æ­£ç¡®è¿”å›æ•°æ®
 {
 content: {
 DBalanceNum: 0,
@@ -114,12 +114,83 @@ ret: 0
 }
 
 ----------------------------------
-´íÎó·µ»ØÊı¾İ
+é”™è¯¯è¿”å›æ•°æ®
 {
 content: null,
 ret: -15
 }
 
-»§idÒÑ¾­´æÔÚ
+æˆ·idå·²ç»å­˜åœ¨
+
+------------------------------------------------------------------------------------------------
+7ã€æ¯æ¬¡è¿›å…¥é—ªå±é¡µå°±æ›´æ–°ç™»å½•æ—¶é—´
+http://39.107.106.248:3389/FSAlliance/rest/user/updateLoginTime?userId=e4c3c4f2-4b27-4f81-97ea-628b2b49e7db
+
+å‚æ•°è¯´æ˜ï¼š
+userId ç”¨æˆ·id
+
+----------------------------------
+{
+content: null,
+ret: 0 æˆåŠŸ -3 å¤±è´¥
+}
+
+------------------------------------------------------------------------------------------------
 
 
+7ã€è·å–ç”¨æˆ·æš‘å‡
+http://39.107.106.248:3389/FSAlliance/rest/user/getuserinfo?userId=e4c3c4f2-4b27-4f81-97ea-628b2b49e7db
+å‚æ•°è¯´æ˜ï¼š
+userId ç”¨æˆ·id
+----------------------------------
+è¿”å›æ•°æ®
+{
+    "content": {
+        "DBalanceNum": 0,
+        "DCashed": 0,
+        "DCashing": 0,
+        "IScoreNum": 0,
+        "SAlipayNum": "",
+        "SInviteNum": "LM1Ve0",
+        "SName": "157777777",
+        "SParentId": "8732ed2f-edfd-40c5-a05d-3ae326e594c6",
+        "SPassword": "157",
+        "SPath": "",
+        "SPhoneNum": "157777777",
+        "SUserId": "e4c3c4f2-4b27-4f81-97ea-628b2b49e7db",
+        "SUserPic": "",
+        "dtCreateTime": {
+            "date": 9,
+            "day": 5,
+            "hours": 19,
+            "minutes": 54,
+            "month": 1,
+            "nanos": 0,
+            "seconds": 23,
+            "time": 1518177263000,
+            "timezoneOffset": -480,
+            "year": 118
+        },
+        "dtLoginTime": {
+            "date": 10,
+            "day": 6,
+            "hours": 11,
+            "minutes": 47,
+            "month": 1,
+            "nanos": 0,
+            "seconds": 45,
+            "time": 1518234465000,
+            "timezoneOffset": -480,
+            "year": 118
+        }
+    },
+    "ret": 0
+}
+------------------------------
+é”™è¯¯è¿”å›æ•°æ®
+{
+    "content": null,
+    "ret": -1
+}
+
+------------------------------------------------------------------------------------------------
