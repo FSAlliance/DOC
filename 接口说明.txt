@@ -37,7 +37,7 @@ pageNo 暂时写死 0 long
 
 ------------------------------------------------------------------------------------------------
 5、登录接口
-http://39.107.106.248:3389/FSAlliance/rest/user/checkSign?phoneNum=123&passWord=1111
+http://39.107.106.248:3389/FSAlliance/rest/user/checkSign?phoneNum=123&password=1111
 
 参数：
 phoneNum手机号
@@ -83,7 +83,7 @@ ret: -6 代表密码不正确
 
 
 6、注册用户
-http://39.107.106.248:3389/FSAlliance/rest/user/register?phoneNum=1232523423&passWord=1111&shareCode=12121
+http://39.107.106.248:3389/FSAlliance/rest/user/register?phoneNum=1232523423&password=1111&shareCode=12121
 
 参数：
 phoneNum手机号
