@@ -218,3 +218,18 @@ userName 用户名
 content: null,
 ret: 0 成功 -3 失败
 }
+
+
+------------------------------------------------------------------------------------------------
+11、更新用户的密码
+http://39.107.106.248:3389/FSAlliance/rest/user/updatePassword?userId=e4c3c4f2-4b27-4f81-97ea-628b2b49e7db&password=1212
+
+参数说明：
+userId 用户id
+password 密码
+
+----------------------------------
+{
+content: null,
+ret: 0 成功 -3 失败
+}
