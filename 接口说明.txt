@@ -88,7 +88,7 @@ http://39.107.106.248:3389/FSAlliance/rest/user/register?phoneNum=1232523423&pas
 参数：
 phoneNum手机号
 passWord 密码
-shareCode 分享码
+shareCode 分享码 LM1Ve0
 
 ----------------------------------
 正确返回数据
@@ -250,6 +250,5 @@ userId： 用户 id
 content: null,
 ret: 0 成功 其他失败
 }
-
 
 
