@@ -233,3 +233,23 @@ password 密码
 content: null,
 ret: 0 成功 -3 失败
 }
+12. 上传用户头像
+http://39.107.106.248:3389/FSAlliance/rest/user/updateUserPhoto
+参数：file File 文件
+-----------------------------------
+{
+path路径，路径不为空  成功
+}
+
+http://39.107.106.248:3389/FSAlliance/rest/user/updateUserHeadInfo?userPic=%2Froot%2Fapache-tomcat-6.0.24%2Fwebapps%2FFSAlliance%2Fphoto%5Ceb42a6d3-86cc-4463-a739-c7e747b85a71.jpg&userId=8b7a7c54-3e9b-426a-89f7-d1ae3040888f
+参数：
+userPic 图片路径
+userId： 用户 id
+----------------------------------
+{
+content: null,
+ret: 0 成功 其他失败
+}
+
+
+
