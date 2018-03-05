@@ -258,7 +258,7 @@ ret: 0 成功 其他失败
 13、找回订单
 http://39.107.106.248:3389/FSAlliance/rest/userOrder/addOrderTaobao?orderId=1234&userId=057c7262-39a5-4e5f-9fef-447e975e5db1
 参数：
-orderId 订单的后四位 
+orderId 订单编号 
 userId 用户ID
 
 ----------------------------------
@@ -297,45 +297,78 @@ ret: 0 成功 -18 没有该订单 -17 该订单已被他人找回
 }
 
 ------------------------------------------------------------------------------------------------
-13、根据订单类型查询
+13、根据订单类型查询订单
 http://39.107.106.248:3389/FSAlliance/rest/userOrder/getOrderByType?orderType=31&userId=057c7262-39a5-4e5f-9fef-447e975e5db1
 参数：
 orderType 订单类型
 userId 用户ID
+pageNo 第几个（从1开始）
+pageSize 每页的个数
 
 ----------------------------------
 {
-content: {
-adsenseId: "13",//广告位ID
-adsenseName: "13",//广告位名称
-auctionId: "13",//商品ID
-auctionNum: 313,//商品数
-auctionTitle: "13123",//商品信息
-category: "13",//类目名称
-commissionAmount: 131,//佣金金额
-createTime: "2018-03-01 22:41:31",//创建时间
-discountAndSubsidyToString: 12.3,//收入比率
-earningTime: "2018-02-01 22:41:39",//结算时间
-exnickname: "131",//所属店铺名称
-feeString: 13,//效果预估
-finalDiscountTostring: 13,//佣金比率
-forecastIncome: 3,//预估收入
-id: "123456789",//订单编号
-payPrice: 131,//商品单价
-payStatus: 31,//订单状态(订单付款：0， 订单失效：1 )12表示订单付款、13表示订单失效、3表示订单付款
-settlementAmount: 13,//结算金额
-shareRate: 1313,//分成比率
-sourceMedium: "13",//来源媒体
-sourceMediumName: "3",//来源媒体名称
-subsidyAmount: 131,//补贴金额
-subsidyRatio: 313,//补贴比率
-subsidyType: 13,//补贴类型
-terminalType: 13,//成交平台
-thirdService: "31",//第三方服务来源
-tkbiztag: 313,//订单类型（1：淘宝 2：天猫）
-totalAlipayFeeString: 13//付款金额
+content:  [
+{
+adsenseId: "",
+adsenseName: "",
+auctionId: "",
+auctionNum: 0,
+auctionTitle: "5",
+category: "",
+commissionAmount: 0,
+createTime: "2018-03-21 20:37:24",
+discountAndSubsidyToString: 0,
+earningTime: null,
+exnickname: "",
+feeString: 0,
+finalDiscountTostring: 0,
+forecastIncome: 0,
+id: "1231321000",
+payPrice: 5,
+payStatus: 1,
+settlementAmount: 0,
+shareRate: 0,
+sourceMedium: "",
+sourceMediumName: "",
+subsidyAmount: 0,
+subsidyRatio: 0,
+subsidyType: 0,
+terminalType: 0,
+thirdService: "",
+tkbiztag: 0,
+totalAlipayFeeString: 0
 },
-ret: 0 成功 -18 没有该订单 
+{
+adsenseId: "",
+adsenseName: "",
+auctionId: "",
+auctionNum: 0,
+auctionTitle: "5",
+category: "",
+commissionAmount: 0,
+createTime: "2018-03-21 20:37:24",
+discountAndSubsidyToString: 0,
+earningTime: null,
+exnickname: "",
+feeString: 0,
+finalDiscountTostring: 0,
+forecastIncome: 0,
+id: "1231321000",
+payPrice: 5,
+payStatus: 1,
+settlementAmount: 0,
+shareRate: 0,
+sourceMedium: "",
+sourceMediumName: "",
+subsidyAmount: 0,
+subsidyRatio: 0,
+subsidyType: 0,
+terminalType: 0,
+thirdService: "",
+tkbiztag: 0,
+totalAlipayFeeString: 0
+}]
+ret: 0
 }
 
 
