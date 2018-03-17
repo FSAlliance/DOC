@@ -280,7 +280,7 @@ finalDiscountTostring: 13,//佣金比率
 forecastIncome: 3,//预估收入
 id: "123456789",//订单编号
 payPrice: 131,//商品单价
-payStatus: 31,//订单状态(订单付款：0， 订单失效：1 ) 12表示订单付款、13表示订单失效、3表示订单付款
+payStatus: 31,//订单状态(12 已付款 3已结算 13 订单失效) 
 settlementAmount: 13,//结算金额
 shareRate: 1313,//分成比率
 sourceMedium: "13",//来源媒体
@@ -300,7 +300,7 @@ ret: 0 成功 -18 没有该订单 -17 该订单已被他人找回
 13、根据订单类型查询订单
 http://39.107.106.248:3389/FSAlliance/rest/userOrder/getOrderByType?orderType=31&userId=057c7262-39a5-4e5f-9fef-447e975e5db1
 参数：
-orderType 订单类型
+orderType 订单类型 12 已付款 3已结算 13 订单失效
 userId 用户ID
 pageNo 第几个（从1开始）
 pageSize 每页的个数
