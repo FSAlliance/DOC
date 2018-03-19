@@ -298,7 +298,7 @@ ret: 0 成功 -18 没有该订单 -17 该订单已被他人找回
 
 ------------------------------------------------------------------------------------------------
 13、根据订单类型查询订单
-http://39.107.106.248:3389/FSAlliance/rest/userOrder/getOrderByType?orderType=31&userId=057c7262-39a5-4e5f-9fef-447e975e5db1
+http://39.107.106.248:3389/FSAlliance/rest/userOrder/getOrderByType?orderType=31&userId=057c7262-39a5-4e5f-9fef-447e975e5db1&pageNo=1&pageSize=10
 参数：
 orderType 订单类型 12 已付款 3已结算 13 订单失效
 userId 用户ID
