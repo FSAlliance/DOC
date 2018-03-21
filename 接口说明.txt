@@ -24,6 +24,19 @@ url 商品的优惠卷链接
 logo 商品的图片
 ext 暂时不填
 
+
+------------------------------------------------------------------------------------------------
+
+3、生成淘口令的接口（根据商品的地址链接生成）
+http://39.107.106.248:3389/FSAlliance/rest/Goods/codeEx?userId=128556731&text=%E5%AE%BD%E6%9D%BE%E8%A1%AC%E8%A1%AB%E8%A3%99%E5%A5%B3%E9%95%BF%E8%A2%962018%E6%98%A5%E8%A3%85%E6%96%B0%E6%AC%BE%E7%AE%80%E7%BA%A6%E7%99%BE%E6%90%AD%E7%99%BD%E8%A1%AC%E8%A1%A3%E4%B8%AD%E9%95%BF%E6%AC%BEchic%E4%B8%8A%E8%A1%A3bf%E9%A3%8E&url=https%3A%2F%2Fuland.taobao.com%2Fcoupon%2Fedetail%3Fe%3DhZF%252FHxlw9rgGQASttHIRqaOypSpKeL5hI5arNFrJoEK0a6ouKNVKa0SRmb58SticiaP4Spy1zFzvpYiRJsu%252BSb9fwBwwUiqlY1VSfP7Tu%252BmbIqGPJckV0fSs4zOlZ4se&logo=https%3A%2F%2Fimg.alicdn.com%2Ftfscom%2Fi2%2F2526901592%2FTB2HVPFexk98KJjSZFoXXXS6pXa_%21%212526901592.jpg&ext=
+userId 用户ID 暂时不填
+text 商品的标题，填写商品的title字段（会出现淘口令中的标题乱码）
+url 商品的优惠卷链接
+logo 商品的图片
+ext 暂时不填
+
+
+
 ------------------------------------------------------------------------------------------------
 
 4、主页列表显示
@@ -300,7 +313,7 @@ ret: 0 成功 -18 没有该订单 -17 该订单已被他人找回
 13、根据订单类型查询订单
 http://39.107.106.248:3389/FSAlliance/rest/userOrder/getOrderByType?orderType=31&userId=057c7262-39a5-4e5f-9fef-447e975e5db1&pageNo=1&pageSize=10
 参数：
-orderType 订单类型 12 已付款 3已结算 13 订单失效
+orderType 订单类型 12 已付款 3已结算 13 订单失效 0默认查询全部
 userId 用户ID
 pageNo 第几个（从1开始）
 pageSize 每页的个数
