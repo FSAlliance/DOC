@@ -382,5 +382,94 @@ totalAlipayFeeString: 0
 }]
 ret: 0
 }
+------------------------------------------------------------------------------------------------
+14、获取提现记录接口
+http://39.107.106.248:3389/FSAlliance/rest/user/getPresentRecordList?userId=12f328a3-b748-4cbe-b47f-909658000828&pageNo=0&pageSize=20
+参数：userId 用户id
+pageNo ： 页数 从0开始
+pageSize： 一个的个数
+{
+    "content": [
+        {
+            "id": "0b6f7e0b-53ca-4ea8-9822-9fe202c49b73",//ID 没用
+            "presentMoneny": "10.0",//提现金额
+            "presentTime": "2018-03-26 22:13:10.0",//提现时间
+            "state": 0// 状态 0提现中 1 已提现
+        }
+    ],
+    "ret": 0
+}
 
+------------------------------------------------------------------------------------------------
+14、获取收入记录接口
+http://39.107.106.248:3389/FSAlliance/rest/user/getIncomeRecordList?userId=12f328a3-b748-4cbe-b47f-909658000828&pageNo=0&pageSize=20
+参数：userId 用户id
+pageNo ： 页数 从0开始
+pageSize： 一个的个数
 
+{
+    "content": [
+        {
+            "id": "56",//id 没用
+            "incomeMoneny": "66.0",//收入金额
+            "incomeTime": "2018-03-16 21:11:56.0",/收入时间
+            "type": 0  //状态 0 表示主动收入  1被动收入
+        },
+        {
+            "id": "55",
+            "incomeMoneny": "5555.0",
+            "incomeTime": "2018-03-15 18:13:36.0",
+            "type": 0
+        }
+    ],
+    "ret": 0 //0 成功 -1 失败
+}
+{
+    "content": [
+        {
+            "id": "0b6f7e0b-53ca-4ea8-9822-9fe202c49b73",//用户ID
+            "presentMoneny": "10.0",//提现金额
+            "presentTime": "2018-03-26 22:13:10.0",//提现时间
+            "state": 0// 状态 0提现中 1 已提现
+        }
+    ],
+    "ret": 0
+}
+
+14、提现
+http://39.107.106.248:3389/FSAlliance/rest/user/persent?userId=12f328a3-b748-4cbe-b47f-909658000828&money=10.0
+
+参数： userId 用户ID
+money 提现金额
+
+{
+    "content": {
+        "DBalanceNum": -10,
+        "DCashed": 0,
+        "DCashing": 30,
+        "IScoreNum": 0,
+        "SAlipayNum": "15633722631",
+        "SInviteNum": "pa9JA0",
+        "SName": "15633722631",
+        "SParentId": "aaaaaaa",
+        "SPassword": "1111",
+        "SPath": "",
+        "SPhoneNum": "15633722631",
+        "SUserId": "12f328a3-b748-4cbe-b47f-909658000828",
+        "SUserPic": "http://39.107.106.248:3389/FSAlliance/photo/IMG_20180325_111208.jpg",
+        "dtCreateTime": {
+            "date": 26,
+            "day": 1,
+            "hours": 21,
+            "minutes": 42,
+            "month": 2,
+            "nanos": 0,
+            "seconds": 58,
+            "time": 1522071778000,
+            "timezoneOffset": -480,
+            "year": 118
+        },
+        "dtLoginTime": null
+    },
+    "ret": 0 状态 0 提现成功 -1 提现失败
+}
