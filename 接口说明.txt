@@ -424,17 +424,6 @@ pageSize： 一个的个数
     ],
     "ret": 0 //0 成功 -1 失败
 }
-{
-    "content": [
-        {
-            "id": "0b6f7e0b-53ca-4ea8-9822-9fe202c49b73",//用户ID
-            "presentMoneny": "10.0",//提现金额
-            "presentTime": "2018-03-26 22:13:10.0",//提现时间
-            "state": 0// 状态 0提现中 1 已提现
-        }
-    ],
-    "ret": 0
-}
 
 14、提现
 http://39.107.106.248:3389/FSAlliance/rest/user/persent?userId=12f328a3-b748-4cbe-b47f-909658000828&money=10.0
