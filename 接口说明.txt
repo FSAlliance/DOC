@@ -462,3 +462,57 @@ money 提现金额
     },
     "ret": 0 状态 0 提现成功 -1 提现失败
 }
+
+
+
+-----------------------------------------------------------------------
+搜索商品接口
+http://39.107.106.248:7000/FSAlliance/rest/Goods/searchGoods?queryWord=asdasd&pageNo=1&pageSize=10
+queryWord ：搜索内容
+pageNo 页数
+pageSize 每页的个数
+
+返回数据
+{
+    "tbk_item_get_response": {
+        "results": {
+            "n_tbk_item": [
+                {
+                    "item_url": "http://item.taobao.com/item.htm?id=564517679461",//商品地址
+                    "nick": "鏉庨潚绉€2011",//卖家名称
+                    "num_iid": 564517679461,//商品id
+                    "pict_url": "https://img.alicdn.com/tfscom/i2/26907066/TB2KIgiltqUQKJjSZFIXXcOkFXa_!!26907066.jpg",//图片地址
+                    "provcity": "娴欐睙 閲戝崕",//宝贝所在地
+                    "reserve_price": "9.88",//商品一口价格
+                    "seller_id": 651867645,//卖家id
+                    "small_images": {//小图
+                        "string": [
+                            "https://img.alicdn.com/tfscom/i3/26907066/TB2o80UnrsTMeJjy1zeXXcOCVXa_!!26907066.jpg",
+                            "https://img.alicdn.com/tfscom/i2/26907066/TB2QOkWiF9gSKJjSspbXXbeNXXa_!!26907066.jpg",
+                            "https://img.alicdn.com/tfscom/i4/26907066/TB2zNalolUSMeJjy1zkXXaWmpXa_!!26907066.jpg"
+                        ]
+                    },
+                    "title": "瑙佹弿杩�2018濂崇敓鐢峰澶栧鐢风骞煎効鍥コ瀛╁コ娆剧僵琚栬濂梐sdasd989",//商品标题
+                    "user_type": 0,//卖家类型
+                    "volume": 0,//30天销量
+                    "zk_final_price": "9.78"//商品折扣价格
+                },
+                {
+                    "item_url": "http://item.taobao.com/item.htm?id=539789374616",
+                    "nick": "鐐滆揪瀹濈煶",
+                    "num_iid": 539789374616,
+                    "pict_url": "https://img.alicdn.com/tfscom/i4/902773104/TB2X_daacgd61BjSZFPXXbVVFXa_!!902773104.jpg",
+                    "provcity": "骞夸笢 骞垮窞",
+                    "reserve_price": "8888.00",
+                    "seller_id": 902773104,
+                    "title": "asdasd",
+                    "user_type": 0,
+                    "volume": 0,
+                    "zk_final_price": "8888.00"
+                }
+            ]
+        },
+        "total_results": 2,
+        "request_id": "z27427ng19k1"
+    }
+}
