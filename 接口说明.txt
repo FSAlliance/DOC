@@ -472,42 +472,41 @@ queryWord ：搜索内容
 pageNo 页数
 pageSize 每页的个数
 
-
-
-
-
 返回数据
 {
-    "tbk_dg_item_coupon_get_response": {
-        "results": {
-            "tbk_coupon": [
+    "tbk_sc_material_optional_response": {
+        "result_list": {
+            "map_data": [
                 {
-                    "category": 30,
-                    "commission_rate": "30.00",
-                    "coupon_click_url": "https://uland.taobao.com/coupon/edetail?e=gdxJnPCmFi8GQASttHIRqWJq5BvCVhPBBN4DjuHgSY4YXB958FVfbKQgptu3uQShM2X5JEdiXDiN3Wgt1riBz3tuZUQLWduiDfqEFBOhTcxPi9XxmiRNIE%2FBWmebdv1blHXPCR2zZdR7pj%2F5NuFuWGPfrr0N2WBeWzh251pOig37J8FmRkgg%2BMMHqQ%2Bw9yuT0yk7uILjnMHtS%2F6%2BclOFtQ%3D%3D&traceId=0bb7542115261996315216489e",
-                    "coupon_end_time": "2018-05-14",
-                    "coupon_info": "婊�22鍏冨噺10鍏�",
-                    "coupon_remain_count": 69400,
-                    "coupon_start_time": "2018-05-12",
-                    "coupon_total_count": 100000,
-                    "item_description": "淇炲厗鏋楁鍝� 100%绾鍝佽川 鏀惰棌鍔犺喘鍏堝彂璐�",
-                    "item_url": "http://detail.tmall.com/item.htm?id=568084843649",
-                    "nick": "淇炲厗鏋椾笂娴蜂笓鍗栧簵",
-                    "num_iid": 568084843649,
-                    "pict_url": "http://img.alicdn.com/tfscom/i4/1033189852/TB20GljoY5YBuNjSspoXXbeNFXa_!!1033189852-0-item_pic.jpg",
-                    "seller_id": 1033189852,
-                    "shop_title": "淇炲厗鏋椾笂娴蜂笓鍗栧簵",
+                    "commission_rate": "1500",
+                    "commission_type": "MKT",
+                    "coupon_end_time": "2018-05-31",
+                    "coupon_id": "85565d5df8294b348a52ff4484e2df31",
+                    "coupon_info": "婊�98.00鍏冨噺5鍏�",
+                    "coupon_remain_count": 49575,
+                    "coupon_start_time": "2017-12-19",
+                    "coupon_total_count": 99999,
+                    "include_dxjh": "false",
+                    "include_mkt": "true",
+                    "info_dxjh": "{}",
+                    "item_url": "https://item.taobao.com/item.htm?id=563583140720",
+                    "num_iid": 563583140720,
+                    "pict_url": "https://img.alicdn.com/bao/uploaded/i1/2983962306/TB1PhPDlsnI8KJjSspeXXcwIpXa_!!0-item_pic.jpg",
+                    "provcity": "娴欐睙 鍢夊叴",
+                    "reserve_price": "188",
+                    "seller_id": 2983962306,
+                    "shop_title": "浣愰浄搴︽棗鑸板簵",
                     "small_images": {
                         "string": [
-                            "http://img.alicdn.com/tfscom/i1/1033189852/TB2iRV1q7OWBuNjSsppXXXPgpXa_!!1033189852.jpg",
-                            "http://img.alicdn.com/tfscom/i3/1033189852/TB2_1esfByWBuNkSmFPXXXguVXa_!!1033189852.jpg",
-                            "http://img.alicdn.com/tfscom/i4/1033189852/TB2wpiWmMmTBuNjy1XbXXaMrVXa_!!1033189852.jpg",
-                            "http://img.alicdn.com/tfscom/i2/1033189852/TB2EEzzmL5TBuNjSspcXXbnGFXa_!!1033189852.jpg"
+                            "https://img.alicdn.com/i1/2983962306/TB2aDDelx6I8KJjSszfXXaZVXXa_!!2983962306.jpg",
+                            "https://img.alicdn.com/i3/2983962306/TB2bed5anqWBKNjSZFAXXanSpXa_!!2983962306.jpg",
+                            "https://img.alicdn.com/i2/2983962306/TB2HTcQo1OSBuNjy0FdXXbDnVXa_!!2983962306.jpg",
+                            "https://img.alicdn.com/i1/2983962306/TB2dQK2gRyWBuNkSmFPXXXguVXa_!!2983962306.jpg"
                         ]
-                    }]
-               }
-         }
-  }
+                    },
+          }
+    }
+}
 字段说明：
 └ coupon_start_time String 2017-10-29优惠券开始时间
 └ coupon_end_time String 2017-10-29优惠券结束时间
