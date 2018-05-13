@@ -472,47 +472,65 @@ queryWord ：搜索内容
 pageNo 页数
 pageSize 每页的个数
 
+
+
+
+
 返回数据
 {
-    "tbk_item_get_response": {
+    "tbk_dg_item_coupon_get_response": {
         "results": {
-            "n_tbk_item": [
+            "tbk_coupon": [
                 {
-                    "item_url": "http://item.taobao.com/item.htm?id=564517679461",//商品地址
-                    "nick": "鏉庨潚绉€2011",//卖家名称
-                    "num_iid": 564517679461,//商品id
-                    "pict_url": "https://img.alicdn.com/tfscom/i2/26907066/TB2KIgiltqUQKJjSZFIXXcOkFXa_!!26907066.jpg",//图片地址
-                    "provcity": "娴欐睙 閲戝崕",//宝贝所在地
-                    "reserve_price": "9.88",//商品一口价格
-                    "seller_id": 651867645,//卖家id
-                    "small_images": {//小图
-                        "string": [
-                            "https://img.alicdn.com/tfscom/i3/26907066/TB2o80UnrsTMeJjy1zeXXcOCVXa_!!26907066.jpg",
-                            "https://img.alicdn.com/tfscom/i2/26907066/TB2QOkWiF9gSKJjSspbXXbeNXXa_!!26907066.jpg",
-                            "https://img.alicdn.com/tfscom/i4/26907066/TB2zNalolUSMeJjy1zkXXaWmpXa_!!26907066.jpg"
+                    "category": 30,
+                    "commission_rate": "30.00",
+                    "coupon_click_url": "https://uland.taobao.com/coupon/edetail?e=gdxJnPCmFi8GQASttHIRqWJq5BvCVhPBBN4DjuHgSY4YXB958FVfbKQgptu3uQShM2X5JEdiXDiN3Wgt1riBz3tuZUQLWduiDfqEFBOhTcxPi9XxmiRNIE%2FBWmebdv1blHXPCR2zZdR7pj%2F5NuFuWGPfrr0N2WBeWzh251pOig37J8FmRkgg%2BMMHqQ%2Bw9yuT0yk7uILjnMHtS%2F6%2BclOFtQ%3D%3D&traceId=0bb7542115261996315216489e",
+                    "coupon_end_time": "2018-05-14",
+                    "coupon_info": "婊�22鍏冨噺10鍏�",
+                    "coupon_remain_count": 69400,
+                    "coupon_start_time": "2018-05-12",
+                    "coupon_total_count": 100000,
+                    "item_description": "淇炲厗鏋楁鍝� 100%绾鍝佽川 鏀惰棌鍔犺喘鍏堝彂璐�",
+                    "item_url": "http://detail.tmall.com/item.htm?id=568084843649",
+                    "nick": "淇炲厗鏋椾笂娴蜂笓鍗栧簵",
+                    "num_iid": 568084843649,
+                    "pict_url": "http://img.alicdn.com/tfscom/i4/1033189852/TB20GljoY5YBuNjSspoXXbeNFXa_!!1033189852-0-item_pic.jpg",
+                    "seller_id": 1033189852,
+                    "shop_title": "淇炲厗鏋椾笂娴蜂笓鍗栧簵",
+                    "small_images": {
+                        "string": [
+                            "http://img.alicdn.com/tfscom/i1/1033189852/TB2iRV1q7OWBuNjSsppXXXPgpXa_!!1033189852.jpg",
+                            "http://img.alicdn.com/tfscom/i3/1033189852/TB2_1esfByWBuNkSmFPXXXguVXa_!!1033189852.jpg",
+                            "http://img.alicdn.com/tfscom/i4/1033189852/TB2wpiWmMmTBuNjy1XbXXaMrVXa_!!1033189852.jpg",
+                            "http://img.alicdn.com/tfscom/i2/1033189852/TB2EEzzmL5TBuNjSspcXXbnGFXa_!!1033189852.jpg"
                         ]
-                    },
-                    "title": "瑙佹弿杩�2018濂崇敓鐢峰澶栧鐢风骞煎効鍥コ瀛╁コ娆剧僵琚栬濂梐sdasd989",//商品标题
-                    "user_type": 0,//卖家类型
-                    "volume": 0,//30天销量
-                    "zk_final_price": "9.78"//商品折扣价格
-                },
-                {
-                    "item_url": "http://item.taobao.com/item.htm?id=539789374616",
-                    "nick": "鐐滆揪瀹濈煶",
-                    "num_iid": 539789374616,
-                    "pict_url": "https://img.alicdn.com/tfscom/i4/902773104/TB2X_daacgd61BjSZFPXXbVVFXa_!!902773104.jpg",
-                    "provcity": "骞夸笢 骞垮窞",
-                    "reserve_price": "8888.00",
-                    "seller_id": 902773104,
-                    "title": "asdasd",
-                    "user_type": 0,
-                    "volume": 0,
-                    "zk_final_price": "8888.00"
-                }
-            ]
-        },
-        "total_results": 2,
-        "request_id": "z27427ng19k1"
-    }
-}
+                    }]
+               }
+         }
+  }
+字段说明：
+└ coupon_start_time String 2017-10-29优惠券开始时间
+└ coupon_end_time String 2017-10-29优惠券结束时间
+└ info_dxjh Json {"19013551":"2850","74510538":"2550"}定向计划信息
+└ tk_total_sales String 11淘客30天月推广量
+└ tk_total_commi String 323月支出佣金
+└ coupon_id String d62db1ab8d9546b1bf0ff49bda5fc33b优惠券id
+└ num_iid Number 556633720749宝贝id
+└ title String 毛呢阔腿裤港味复古女裤子秋冬九分裤萝卜裤显瘦高腰韩版2017新款商品标题
+└ pict_url String https://img.alicdn.com/bao/uploaded/i4/745957850/TB1WzSRmV9gSKJjSspbXXbeNXXa_!!0-item_pic.jpg商品主图
+└ small_images String [] https://img.alicdn.com/i4/3077291146/TB2NA3poDnI8KJjSszgXXc8ApXa_!!3077291146.jpg商品小图列表
+└ reserve_price String 102.00商品一口价格
+└ zk_final_price String 88.00商品折扣价格
+└ user_type Number 1卖家类型，0表示集市，1表示商城
+└ provcity String 杭州宝贝所在地
+└ item_url String https://item.taobao.com/item.htm?id=564591813536商品地址
+└ include_mkt String false是否包含营销计划
+└ include_dxjh String false是否包含定向计划
+└ commission_rate String 1550表示15.5%佣金比率
+└ volume Number 12330天销量
+└ seller_id Number 232332卖家id
+└ coupon_total_count Number 22323优惠券总量
+└ coupon_remain_count Number 111优惠券剩余量
+└ coupon_info String 满299元减20元优惠券面额
+└ commission_type String MKT表示营销计划，SP表示定向计划，COMMON表示通用计划佣金类型
+└ shop_title String xx旗舰店店铺名称
