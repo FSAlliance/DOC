@@ -35,7 +35,32 @@ url 商品的优惠卷链接
 logo 商品的图片
 ext 暂时不填
 
+------------------------------------------------------------------------------------------------
 
+3、生成淘口令的接口（根据商品ID获取）
+http://192.168.0.103:8080/FSAlliance/rest/Goods/codeByWeb?numId=563583140720
+numId 商品ID
+
+返回数据
+{
+    "invalidKey": null,
+    "ok": true,
+    "data": {
+        "clickUrl": "https://s.click.taobao.com/t?e=m%3D2%26s%3Dctj%2FlBFufhAcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67jYqN7HS86QeFBt5vao9QZwW9gItxlYidthj8hamceUK8xzYPwHiBSp%2BhpWVaPI4FdRa4tAQPdcIRHRzInE0SrixKFSM0vH522bvesug1X%2FLLAOloKvqdNHGDmntuH4VtA%3D%3D",
+        "couponLink": "https://uland.taobao.com/coupon/edetail?e=nRvoKe2F0sMN%2BoQUE6FNzE%2BL1fGaJE0gT8FaZ5t2%2FVuUdc8JHbNl1MZOYeBrNA1WPpVthW7h7usVdmn5JVPbSl6i97NcswApSB9Oxyt7%2BcAdw3lDEBrG%2Bg%3D%3D&af=1&pid=mm_131560623_44580730_487536526",
+        "tkCommonRate": "15.00",
+        "taoToken": "锟bVo0uX2r2n锟�",//没有优惠券时的链接
+        "couponLinkTaoToken": "锟�8ytO0uX2lNU锟�",//有优惠券时的链接
+        "qrCodeUrl": "//gqrcode.alicdn.com/img?type=hv&text=https%3A%2F%2Fs.click.taobao.com%2F3lqIwQw%3Faf%3D3&h=300&w=300",
+        "type": "auction",
+        "couponShortLinkUrl": "https://s.click.taobao.com/NtgLwQw",
+        "shortLinkUrl": "https://s.click.taobao.com/3lqIwQw"
+    },
+    "info": {
+        "ok": true,
+        "message": null
+    }
+}
 
 ------------------------------------------------------------------------------------------------
 
